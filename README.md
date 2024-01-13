@@ -1,2 +1,2 @@
 run npm install
-crate .env file
+create .env file
