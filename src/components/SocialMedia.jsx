@@ -4,15 +4,15 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const SocialMedia = () => (
   <div className="app__social">
-    <div>
+    <a href="https://www.linkedin.com/in/antonio-lau/" aria-label="linkedin">
       <FaLinkedin />
-    </div>
-    <div>
+    </a>
+    <a href="https://github.com/antoniooioo " aria-label="github">
       <FaGithub />
-    </div>
-    <div>
+    </a>
+    <a href="https://www.instagram.com/antoniolau_/" aria-label="instagram">
       <BsInstagram />
-    </div>
+    </a>
   </div>
 );
 
